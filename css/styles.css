@@ -1,10 +1,51 @@
 body {
-    background-image: url("/img/fondo.jpg"); /* Ruta de tu imagen */
-    background-size: cover; /* Para que la imagen cubra toda la pantalla */
-    background-repeat: no-repeat; /* Para que no se repita */
-    background-position: center; /* Centrada en la pantalla */
+    background-color: #25272842;
 }
 
-.navbar {
-    color: #acdfff
+/* Barra de Navegación */
+.navbar-brand {
+    color: #ffffff !important; 
+    font-family: 'Ubuntu', sans-serif; /* Cambia la fuente de la marca */
 }
+
+.nav-link {
+    color: #ffffff !important; 
+    background-color: #130326; 
+    padding: 10px 15px; /* Tamaño del botón*/
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; /* animación cambio de color*/
+}
+
+/* Cambiar el color al pasar el mouse */
+.nav-link:hover {
+    background-color: #e19cfa; 
+    color: #130326 !important; 
+}
+
+/* Estilo de los comentarios del carrusel */
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    text-align: left;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 40%;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 3rem;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* sombra de texto */
+    margin-bottom: 20px; /* Espacio entre el título y el párrafo */
+  }
+  
+  .carousel-caption p {
+    font-size: 2rem;
+    color: #f0f0f0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* sombra de texto */
+  }
+
