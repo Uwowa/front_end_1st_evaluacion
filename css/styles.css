@@ -49,3 +49,18 @@ body {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* sombra de texto */
   }
 
+.video-opacity {
+    opacity: 0.9; 
+    filter: brightness(0.7); /* Opcional: Ajusta el brillo para mayor contraste */
+}
+
+.video-mouse {
+    transition: opacity 0.3s ease;
+}
+
+.image-opacity {
+    opacity: 0.9; /* Ajusta el valor de opacidad (0.0 a 1.0) */
+    filter: brightness(0.8); /* Opcional: Ajusta el brillo para mayor contraste */
+}
+
+
