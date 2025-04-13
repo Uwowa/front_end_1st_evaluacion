@@ -5,7 +5,7 @@ body {
 /* Barra de Navegación */
 .navbar-brand {
     color: #ffffff !important; 
-    font-family: 'Ubuntu', sans-serif; /* Cambia la fuente de la marca */
+    font-family: 'Ubuntu', sans-serif; 
 }
 
 .nav-link {
@@ -52,10 +52,6 @@ body {
 .video-opacity {
     opacity: 0.9; 
     filter: brightness(0.7); 
-}
-
-.video-mouse {
-    transition: opacity 0.3s ease;
 }
 
 .image-opacity {
@@ -123,10 +119,10 @@ footer {
     color: #ffffff;
     text-align: center;
     padding: 20px 0;
-    font-family: 'Ubuntu', sans-serif; /* Cambia la fuente del pie de página */
+    font-family: 'Ubuntu', sans-serif; 
     position: relative;
 }
 
 footer a {
-    text-decoration: none; /* Elimina el subrayado */
+    text-decoration: none; 
 }
