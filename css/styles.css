@@ -94,6 +94,26 @@ body {
     font-weight: lighter;
 }
 
+/* Formulario de contacto */
+.form-label {
+    color: #77139c; 
+    font-family: 'Ubuntu', sans-serif; 
+    font-size: 17px; 
+    font-weight: lighter; 
+}
+
+.form-control {
+    border-radius: 5px; 
+    border: 1px solid #a05db9; 
+    background-color: #f0f0f0; 
+}
+
+.form-control:focus {
+    border-color: #a05db9; 
+    box-shadow: 0 0 5px rgba(160, 93, 185, 0.673); 
+}
+
+/* Botón enviar */
 #botoncito {
     color: #ffffff;
     background-color: #b27bf6;
@@ -114,6 +134,7 @@ body {
     transform: scale(1.1);
 }
 
+/* Footer */
 footer {
     background-color: #130326;
     color: #ffffff;
@@ -125,21 +146,4 @@ footer {
 
 footer a {
     text-decoration: none; 
-}
-.form-label {
-    color: #77139c; 
-    font-family: 'Ubuntu', sans-serif; 
-    font-size: 17px; 
-    font-weight: lighter; 
-}
-
-.form-control {
-    border-radius: 5px; 
-    border: 1px solid #a05db9; 
-    background-color: #f0f0f0; 
-}
-
-.form-control:focus {
-    border-color: #a05db9; 
-    box-shadow: 0 0 5px rgba(160, 93, 185, 0.673); 
 }
