@@ -1,5 +1,5 @@
 body {
-    background-color: #25272842;
+    background-color: #4f46b438 !important;
 }
 
 /* Barra de Navegación */
@@ -39,19 +39,19 @@ body {
     font-size: 3rem;
     color: #ffffff;
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* sombra de texto */
-    margin-bottom: 20px; /* Espacio entre el título y el párrafo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    margin-bottom: 20px; 
   }
   
   .carousel-caption p {
     font-size: 2rem;
     color: #f0f0f0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* sombra de texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
   }
 
 .video-opacity {
     opacity: 0.9; 
-    filter: brightness(0.7); /* Opcional: Ajusta el brillo para mayor contraste */
+    filter: brightness(0.7); 
 }
 
 .video-mouse {
@@ -59,8 +59,74 @@ body {
 }
 
 .image-opacity {
-    opacity: 0.9; /* Ajusta el valor de opacidad (0.0 a 1.0) */
-    filter: brightness(0.8); /* Opcional: Ajusta el brillo para mayor contraste */
+    opacity: 0.9;
+    filter: brightness(0.8); 
 }
 
+/* CARDS atributos! meow*/
+.card-title {
+    color: #ad49d1;
+    text-align: center;
+    transition: transform 0.3s;
+    font-size: 25px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: lighter;
+}
 
+.card-text {
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+}
+.card {
+    border: 1px solid #a05db9;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Titulo de id contactotitle jojojo*/
+#contactotitle {
+    color: #77139c;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: lighter;
+}
+
+#botoncito {
+    color: #ffffff;
+    background-color: #b27bf6;
+    border: 1px solid #b27bf6;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;  
+    left: 93%;
+    position: relative;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+}
+
+#botoncito:hover {
+    background-color: #77139c;
+    border: 1px solid #77139c;
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #130326;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Ubuntu', sans-serif; /* Cambia la fuente del pie de página */
+    position: relative;
+}
+
+footer a {
+    text-decoration: none; /* Elimina el subrayado */
+}
